@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <header className="w-full h-[36rem] lg:flex lg:h-[38rem]">
+        <header className="w-full h-[36rem] lg:flex lg:h-[39rem]">
             <section className="w-full h-2/3 bg-primary lg:w-8/12 lg:h-full">
                 <div className="w-full h-full flex justify-center items-center ">
                     <article className="w-full min-h-0 pl-14 pr-12 lg:pl-32 lg:pr-80">
@@ -12,7 +12,7 @@ export default function Header() {
             </section>
 
             <section className="w-full h-1/3 bg-secundary flex justify-center items-center lg:w-4/12 lg:h-full">
-                <div className="w-52 h-52 relative bg-white bottom-10 lg:right-52 lg:w-72 lg:h-72 lg:translate-y-10"></div>
+                <div className="w-52 h-52 relative bg-white bottom-10 shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:right-52 lg:w-72 lg:h-72 lg:translate-y-10"></div>
             </section>
         </header>
     )

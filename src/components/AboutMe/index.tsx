@@ -3,7 +3,7 @@ export default function AboutMe () {
         <section className="w-full min-h-96 py-5 px-5 flex flex-col items-center justify-center">
 
             <div className="flex gap-3">
-                <div className="lg:w-72 lg:h-72 rounded-full lg:bg-slate-400"></div>
+                <div className="lg:w-72 lg:h-72 lg:rounded-full lg:bg-slate-400 lg:border-black lg:border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)]"></div>
 
                 <div className="flex flex-col gap-2">
                     <article className="font-Inter mb-2 lg:w-96">
@@ -14,13 +14,13 @@ export default function AboutMe () {
                     </article>
                     
                     <div className="flex gap-3 font-Inter justify-center lg:justify-start">
-                        <button className="w-20 h-20 bg-primary rounded-full text-secundary lg:w-20 lg:h-20">
+                        <button className="w-20 h-20 bg-primary rounded-full text-secundary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
                             Curriculo
                         </button>
-                        <button className="w-20 h-20 bg-secundary rounded-full text-primary lg:w-20 lg:h-20">
+                        <button className="w-20 h-20 bg-secundary rounded-full text-primary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
                             Projetos
                         </button>
-                        <button className="w-20 h-20 bg-primary rounded-full text-secundary lg:w-20 lg:h-20">
+                        <button className="w-20 h-20 bg-primary rounded-full text-secundary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
                             Skills
                         </button>
                     </div>
@@ -29,7 +29,7 @@ export default function AboutMe () {
                 
             </div>
 
-            <div className="w-64 h-64 bg-slate-400 mt-4 rounded-full lg:hidden"></div>
+            <div className="w-64 h-64 bg-slate-400 mt-4 rounded-full border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:hidden"></div>
         
         </section>
     )
