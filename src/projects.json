@@ -1,0 +1,19 @@
+[{
+    "img" : "https://uploaddeimagens.com.br/images/004/499/265/full/imagem_2023-06-07_212303976.png?1686183769",
+    "linkDeploy" : "https://rock-paper-and-scissors-delta.vercel.app" ,
+    "linkRepositorio" : "https://github.com/thiagovarallo/Rock-paper-and-scissors",
+    "nome" : "Rock Paper Scissors"
+},
+{
+    "img" : "https://uploaddeimagens.com.br/images/004/499/266/full/imagem_2023-06-07_212726172.png?1686184028",
+    "linkDeploy" : "https://academia-page.vercel.app" ,
+    "linkRepositorio" : "https://github.com/thiagovarallo/Academia-Page",
+    "nome" : "Landing Page: Academia"
+},
+{
+    "nome" : "Rock Paper Scissors"
+},
+{
+    "nome" : "cavalo"
+}
+]

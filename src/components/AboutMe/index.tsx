@@ -14,15 +14,15 @@ export default function AboutMe () {
                     </article>
                     
                     <div className="flex gap-3 font-Inter justify-center lg:justify-start">
-                        <button className="w-20 h-20 bg-primary rounded-full text-secundary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
+                        <a href="" className="w-20 h-20 flex justify-center items-center bg-primary rounded-full text-secundary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
                             Curriculo
-                        </button>
-                        <button className="w-20 h-20 bg-secundary rounded-full text-primary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
-                            Projetos
-                        </button>
-                        <button className="w-20 h-20 bg-primary rounded-full text-secundary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
-                            Skills
-                        </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/thiago-varallo" className="w-20 h-20 flex justify-center items-center bg-secundary rounded-full text-primary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
+                            Linkdin
+                        </a>
+                        <a href="" className="w-20 h-20 flex justify-center items-center bg-primary rounded-full text-secundary border-black border-[1px] shadow-[0px_5px_5px_rgba(0,0,0,0.5)] lg:w-20 lg:h-20">
+                            Github
+                        </a>
                     </div>
 
                 </div>

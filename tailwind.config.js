@@ -17,6 +17,10 @@ module.exports = {
         "primary" : "#4831d4",
         "secundary" : "#ccf381"
       },
+      backgroundImage : {
+        "view" : "url('../src/assets/view.svg')",
+        "github" : "url('../src/assets/github.svg')", 
+      }
     },
   },
   plugins: [],
